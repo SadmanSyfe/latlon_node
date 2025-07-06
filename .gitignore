@@ -34,8 +34,8 @@ CTestTestfile.cmake
 # Catkin/Colcon specific
 .catkin_tools/
 .ros/
-.vscode/ 
-
+.vscode/
+.vscode
 # Editor and IDE specific files
 .project
 .classpath
