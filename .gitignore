@@ -34,7 +34,7 @@ CTestTestfile.cmake
 # Catkin/Colcon specific
 .catkin_tools/
 .ros/
-.vscode/ # If you use VS Code, you might want to ignore this to avoid sharing user-specific settings
+.vscode/ 
 
 # Editor and IDE specific files
 .project
