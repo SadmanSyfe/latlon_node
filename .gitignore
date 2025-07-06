@@ -1,0 +1,62 @@
+# ROS 2 specific ignore patterns
+
+# Build artifacts
+build/
+install/
+log/
+
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+venv/
+.venv/
+
+# C++ specific ignores
+*.o
+*.lo
+*.la
+*.so
+*.a
+*.dynlib
+*.dll
+*.exe
+
+# CMake specific ignores
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# Catkin/Colcon specific
+.catkin_tools/
+.ros/
+.vscode/ # If you use VS Code, you might want to ignore this to avoid sharing user-specific settings
+
+# Editor and IDE specific files
+.project
+.classpath
+.settings/
+.idea/             # IntelliJ/PyCharm
+*.iml              # IntelliJ/PyCharm
+.DS_Store          # macOS
+Thumbs.db          # Windows
+*.swp              # Vim swap files
+*~                 # Emacs backup files
+# backup files
+*.bak
+*.orig
+*.rej
+
+# Test results
+test_results/
+
+# Documentation files (often generated)
+doc/
+doxygen/
+
+# Environment specific files
+.env
